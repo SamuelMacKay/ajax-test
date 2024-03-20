@@ -41,6 +41,6 @@ function writeToDocument(type) {
             tableRows.push(`<tr>${dataRow}</tr>`)
         });
 
-        el.innerHTML = `<table${tableHeaders}${tableRows}</table>`
+        el.innerHTML = `<table>${tableHeaders}${tableRows}</table>`
     });
 }
